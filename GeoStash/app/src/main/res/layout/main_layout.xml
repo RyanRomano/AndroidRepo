@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8BC34A">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:background="#dde8f0"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/find_a_stash_button"
+        android:text="Find a Stash"
+        android:layout_gravity="center_horizontal"
+        android:textSize="45dp"
+        android:layout_above="@+id/leave_a_stash_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:fontFamily="Roboto-Thin"
+        />
+    <Button
+        android:fontFamily="Roboto-Thin"
+        android:background="#dde8f0"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/leave_a_stash_button"
+        android:text="Leave a Stash"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="126dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/find_a_stash_button"
+        android:layout_alignEnd="@+id/find_a_stash_button"
+        android:layout_weight="1" />
+</LinearLayout>
